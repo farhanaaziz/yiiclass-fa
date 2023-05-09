@@ -21,6 +21,8 @@
         "kartik-v/yii2-mpdf": "*",
         "2amigos/yii2-ckeditor-widget" : "*",
         "mpdf/mpdf": "7.1.5"
+        "2amigos/yii2-ckeditor-widget" : "*"
+        
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
