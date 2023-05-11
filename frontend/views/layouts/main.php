@@ -38,6 +38,12 @@ AppAsset::register($this);
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
         ['label' => 'Contact', 'url' => ['/site/contact']],
+        ['label' => 'Pengguna', 'url' => ['/pengguna/index']],
+        ['label' => 'Profil', 'url' => ['/profil/index']],
+        ['label' => 'Bahagian', 'url' => ['/bahagian/index']],
+        ['label' => 'Jawatan', 'url' => ['/jawatan/index']],
+        ['label' => 'Perjawatan', 'url' => ['/perjawatan/index']],
+
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];

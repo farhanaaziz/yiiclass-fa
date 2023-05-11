@@ -75,7 +75,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $model = \common\models\User::findIdentity(2);
+        return $this->render('index', [
+            'model' => $model
+        ]);
     }
 
     /**
